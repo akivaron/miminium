@@ -1,5 +1,5 @@
 # What is it?
-is a fully responsive admin template. Based on Bootstrap 3 framework. modern design and full animation.
+miminium is a fully responsive admin template. Based on Bootstrap 3 framework. modern design and full animation.
 [Demo](http://miminium.codesa.ga)
 ![screenshot](https://github.com/akivaron/miminium/blob/master/asset/img/ss.png "screenshot")
 # License
