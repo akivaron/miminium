@@ -1,0 +1,2 @@
+# miminium
+miminium admin template
