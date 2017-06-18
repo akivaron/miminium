@@ -1,33 +1,29 @@
-(function ($) {
+(function (jQuery) {
 
+    // Variable
+    var $ = jQuery;
     $.fn.ripple = function () {
         $(this).click(function (e) {
-            e.preventDefault();
-            var $rippler = $(this);
-            $rippler.find(".ink").remove();
+            var rippler = $(this),
+                ink = rippler.find(".ink");
 
-            $ink = $("<span class='ink'></span>");
-
-            if ($rippler.children("a").first()) {
-                $rippler.children("a").first().append($ink);
-                console.log("found");
-            }
-            else {
-                $rippler.append($ink);
+            if (rippler.find(".ink").length === 0) {
+                rippler.append("<span class='ink'></span>");
             }
 
-            $ink.removeClass("animate");
-            if (!$ink.height() && !$ink.width()) {
-                var d = Math.max($rippler.outerWidth(), $rippler.outerHeight());
-                $ink.css({
+
+            ink.removeClass("animate");
+            if (!ink.height() && !ink.width()) {
+                var d = Math.max(rippler.outerWidth(), rippler.outerHeight());
+                ink.css({
                     height: d,
                     width: d
                 });
             }
 
-            var x = e.pageX - $rippler.offset().left - $ink.width()/2;
-            var y = e.pageY - $rippler.offset().top - $ink.height()/2;
-            $ink.css({
+            var x = e.pageX - rippler.offset().left - ink.width()/2;
+            var y = e.pageY - rippler.offset().top - ink.height()/2;
+            ink.css({
               top: y+'px',
               left:x+'px'
             }).addClass("animate");
