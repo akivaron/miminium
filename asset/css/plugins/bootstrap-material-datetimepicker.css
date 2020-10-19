@@ -16,13 +16,13 @@
 .dtp .dtp-close > a { color: #fff; }
 .dtp .dtp-close > a > i { font-size: 1em; }
 
-.dtp table.dtp-picker-days { margin: 0; min-height: 251px;}
+.dtp table.dtp-picker-days { margin: 0; min-height: 180px;}
 .dtp table.dtp-picker-days, .dtp table.dtp-picker-days tr, .dtp table.dtp-picker-days tr > td { border: none; }
-.dtp table.dtp-picker-days tr > td {  font-weight: 700; font-size: 1.2rem; text-align: center; padding: 1rem 0.3rem; }
+.dtp table.dtp-picker-days tr > td {  font-weight: 500; font-size: 0.8rem; text-align: center; padding: 0rem 0rem; }
 .dtp table.dtp-picker-days tr > td > span.dtp-select-day { color: #BBB1B1 !important; }
 .dtp table.dtp-picker-days tr > td > a, .dtp .dtp-picker-time > a { color: #BBB1B1; text-decoration: none; padding: 0.4rem 0.5rem 0.5rem 0.6rem; border-radius: 50%!important; }
 .dtp table.dtp-picker-days tr > td > a.selected{ background: #2196F3; color: #fff; }
-.dtp table.dtp-picker-days tr > th { color: #BBB1B1; text-align: center; font-weight: 700; padding: 0.4rem 0.3rem; }
+.dtp table.dtp-picker-days tr > th { color: #BBB1B1; text-align: center; font-weight: 500; padding: 0rem 0rem; }
 
 .dtp .p10 > a { color: #2C6AF9; text-decoration: none; }
 .dtp .p10 { width: 10%; display: inline-block; }
