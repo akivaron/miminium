@@ -593,7 +593,7 @@ p.quote{
 
 .form-control.android[type='text'],
 .form-control.android[type='password'] {
-  width: 100%%;
+  width: 100%;
   font-family: "Roboto", "Droid Sans", sans-serif;
   font-size: 16px;
   margin: 0;
