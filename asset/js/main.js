@@ -72,8 +72,8 @@
         $('.tree-toggle').click(function(e){
             e.preventDefault();
             var $this = $(this).parent().children('ul.tree');
-            $(".tree").not($this).slideUp(600);
-            $this.toggle(700);
+            $(".tree").not($this).slideUp(200);
+            $this.toggle(200);
 
             $(".tree").not($this).parent("li").find(".tree-toggle .right-arrow").removeClass("fa-angle-down").addClass("fa-angle-right");
             $this.parent("li").find(".tree-toggle .right-arrow").toggleClass("fa-angle-right fa-angle-down");
@@ -82,8 +82,8 @@
         $('.sub-tree-toggle').click(function(e) {
             e.preventDefault();
             var $this = $(this).parent().children('ul.sub-tree');
-            $(".sub-tree").not($this).slideUp(600);
-            $this.toggle(700);
+            $(".sub-tree").not($this).slideUp(200);
+            $this.toggle(200);
 
             $(".sub-tree").not($this).parent("li").find(".sub-tree-toggle .right-arrow").removeClass("fa-angle-down").addClass("fa-angle-right");
             $this.parent("li").find(".sub-tree-toggle .right-arrow").toggleClass("fa-angle-right fa-angle-down");
