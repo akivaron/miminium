@@ -70,7 +70,6 @@
     {
 
         $('.tree-toggle').click(function(e){
-            e.preventDefault();
             var $this = $(this).parent().children('ul.tree');
             $(".tree").not($this).slideUp(200);
             $this.toggle(200);
@@ -80,7 +79,6 @@
         });
 
         $('.sub-tree-toggle').click(function(e) {
-            e.preventDefault();
             var $this = $(this).parent().children('ul.sub-tree');
             $(".sub-tree").not($this).slideUp(200);
             $this.toggle(200);
