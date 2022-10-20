@@ -289,7 +289,6 @@
     $("#left-menu ul li a").ripple();
     $(".ripple div").ripple();
     $("#carousel-example3").carouselAnimate();
-    $("#left-menu .sub-left-menu").niceScroll();
      $(".sub-mimin-mobile-menu-list").niceScroll({
             touchbehavior:true,
             cursorcolor:"#FF00FF",
