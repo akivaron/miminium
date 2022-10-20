@@ -1,3 +1,5 @@
+Now you can use this project for your studies or participate in the hacktoberfest contest, you can make a Pull Request here. I will review and merge your code.
+
 # Discontinued
 I decided to discontinue the development of this templates to concentrate my efforts on other projects. I would be very grateful, if you want to continue this project in another repository. Thanks. :)
 
