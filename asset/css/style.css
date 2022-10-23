@@ -20,6 +20,9 @@ a:hover {
   color: #2196F3;
   font-weight: bold;
 }
+#left-menu li :hover{
+  background-color: rgb(63, 76, 107);
+}
 
 input:focus,
 textarea:focus {
